@@ -1,0 +1,112 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, #f50257, #000e5d, #60106B);
+    color: white;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+footer {
+    background-image:linear-gradient(#CEC8FF,white);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.tab-content {
+    border: 1px solid #dddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.accordion-button {
+    background-color: #d3d3d3;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel {
+    border: solid #b6e0ff;
+}
+
+/* This is for the Sliding Cards*/
+
+.carousel-item {
+    padding: 0px;
+  }
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    background-color: indigo;
+    width: 40px;
+  }
+
+  /* Custom CSS for the marquee effect */
+  .marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .marquee {
+    background-color: #f50257;
+  }
+
+  
+
+  
