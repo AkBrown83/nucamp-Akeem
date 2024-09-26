@@ -1,0 +1,121 @@
+h1 {
+    background-color: #dc4d00;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+p {
+  font-size: 16px;
+
+}
+
+.img-block-text {
+  color: #dddddd;
+  margin-bottom: 30px;
+  font-size: 40px;
+  padding-left: 25px;
+  text-align: right;
+  font-weight: 700;
+  padding-top: 100px;
+  font-family: sans-serif;
+  
+}
+
+img {
+    border-radius: 100px;
+    margin-left: 15px;
+    
+}
+.profile-pic {
+    background-color: #00003a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-flex;
+    width: 100%;
+    border-radius: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding-left: 15px;
+    color: #00003a;
+    
+}
+
+h3 {
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.grid-text {
+    font-size: 18px;
+    color: #00003a;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #000077;
+    font-family: sans-serif;
+  }
+  
+  .main-table th, .main-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  /* Styling for the different theads */
+  .thead-primary {
+    background-color: #00003a;
+    color: blanchedalmond;
+    text-align: center;
+  }
+  
+  
+  /* Styling for nested tables */
+  .nested-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #dc4d00;
+
+  }
+  
+  .nested-table td {
+    border: 2px solid #dddddd;
+    padding: 5px;
+    font-size: 14px;
+    color: #dddddd;
+  }
+
+  footer {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 75px;
+  }
+
+p a {
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.social-links {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+}
+
+.my-audio {
+  margin-left: 15px;
+  
+}
